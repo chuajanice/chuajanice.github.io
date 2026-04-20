@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Janice Angel Chua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ─── Navigation ─────────────────────────────────── -->
+  <nav>
+    <div class="nav-logo">Janice<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme"></button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#experience" onclick="closeMenu()">Experience</a>
+    <a href="#projects" onclick="closeMenu()">Projects</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+  </div>
+
+  <main>
+    <!-- ─── Hero ──────────────────────────────────────── -->
+    <section id="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-eyebrow">Available for opportunities</p>
+          <h1>Janice Angel<br><em>Chua.</em></h1>
+          <p class="hero-bio">
+            Full-stack developer & UI designer based in Malabuyoc Cebu — I craft digital experiences that are both thoughtful and a little bit fun.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View My Work →</a>
+            <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+          </div>
+          <div class="stats-row" style="margin-top:36px;">
+            <div class="stat">
+              <span class="stat-value">1+</span>
+              <span class="stat-label">Year Exp.</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">5</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">2</span>
+              <span class="stat-label">Clients</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="avatar-wrap">
+            <div class="avatar-bg"></div>
+            <div class="avatar-img">
+              <img src="janice.jpg" alt="Janice's Avatar" class="avatar-photo" />
+            </div>
+            <div class="avatar-tag">
+              <span class="tag-value">Open</span>
+              <span class="tag-label">to work 🎉</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ─── About ─────────────────────────────────────── -->
+    <section id="about">
+      <p class="section-label">Who I Am</p>
+      <h2 class="section-title">A little bit<br>about me.</h2>
+      <div class="about-grid">
+        <div class="about-aside">
+          <div class="about-card reveal">
+            <h4>Quick Info</h4>
+            <ul class="info-list">
+              <li><span>Name</span><strong>Janice Angel Chua</strong></li>
+              <li><span>Role</span><strong>Full-Stack Dev</strong></li>
+              <li><span>Location</span><strong>Malabuyoc, Cebu</strong></li>
+              <li><span>Email</span><strong>janice123quinanola@gmail.com</strong></li>
+              <li><span>Degree</span><strong>B.Sc. Information Technology</strong></li>
+              <li><span>Languages</span><strong>EN, Filipino, Cebuano</strong></li>
+            </ul>
+          </div>
+          <div class="about-card reveal">
+            <h4>Outside the Code</h4>
+            <ul class="info-list">
+              <li><span>Hobby #1</span><strong>Cooking</strong></li>
+              <li><span>Hobby #2</span><strong>Coffee Snob</strong></li>
+              <li><span>Hobby #3</span><strong>Mobile gaming</strong></li>
+              <li><span>Guilty plea.</span><strong>Reading Ebook</strong></li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p>
+            Hi! I'm Janice — a student who's currently exploring the world of technology, especially networking and system design. I enjoy learning how things connect and work behind the scenes, and I like turning complex topics into something I can actually understand and apply.
+          </p>
+          <p>
+            Lately, I've been working on projects related to Cisco configuration, routing, and system development. I'm still learning, but I take it seriously — I like figuring things out step by step until everything finally clicks.
+          </p>
+          <p>
+            I prefer keeping things simple and clear, whether it's in my work or in how I explain ideas. For me, understanding the basics deeply matters more than just memorizing commands.
+          </p>
+          <p>
+            Outside of studying, I enjoy small creative projects and business ideas, like running my own mini food business. I also like moments where I can just relax, think, and improve little by little — at my own pace.
+          </p>
+          <div class="skills-chips">
+            <span class="chip">Cisco Networking</span>
+            <span class="chip">Static Routing</span>
+            <span class="chip">Dynamic Routing (RIP)</span>
+            <span class="chip">VLSM</span>
+            <span class="chip">Subnetting</span>
+            <span class="chip">Cisco Packet Tracer</span>
+            <span class="chip">C# (Basic)</span>
+            <span class="chip">ASP.NET Core MVC</span>
+            <span class="chip">HTML & CSS</span>
+            <span class="chip">Basic UI Design</span>
+            <span class="chip">Database Fundamentals</span>
+            <span class="chip">Problem Solving</span>
+            <span class="chip">System Design Basics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ─── Experience ────────────────────────────────── -->
+    <section id="experience">
+      <p class="section-label">Career</p>
+      <h2 class="section-title">Where I've<br>worked.</h2>
+      <div class="exp-list">
+        <div class="exp-card reveal">
+          <div class="exp-date">2022 — Present</div>
+          <div class="exp-body">
+            <h3>Senior Frontend Engineer</h3>
+            <p class="exp-company">Acme Corp — San Francisco, CA</p>
+            <p class="exp-desc">Led the redesign of the core product UI, reducing load time by 40% and significantly improving user satisfaction scores. Mentored a team of three junior developers and established frontend best practices.</p>
+          </div>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-date">2020 — 2022</div>
+          <div class="exp-body">
+            <h3>Full-Stack Developer</h3>
+            <p class="exp-company">Startup Studio — Remote</p>
+            <p class="exp-desc">Built and shipped three SaaS products from scratch. Wore many hats — from writing REST APIs to designing landing pages. Learned that "move fast" and "don't break things" can actually coexist.</p>
+          </div>
+        </div>
+        <div class="exp-card reveal">
+          <div class="exp-date">2019 — 2020</div>
+          <div class="exp-body">
+            <h3>UI/UX Designer & Developer</h3>
+            <p class="exp-company">Creative Agency — New York, NY</p>
+            <p class="exp-desc">Designed and developed client websites for brands across fashion, food, and tech. Developed a deep appreciation for the craft of typography and layout — and for tight deadlines.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ─── Projects ──────────────────────────────────── -->
+    <section id="projects">
+      <p class="section-label">Work</p>
+      <h2 class="section-title">Things I've<br>built.</h2>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-thumb">📊</div>
+          <div class="project-body">
+            <div class="project-tags"><span class="project-tag">React</span><span class="project-tag">D3.js</span></div>
+            <h3>DataViz Dashboard</h3>
+            <p>An interactive analytics dashboard with real-time data visualization, custom chart components, and a beautiful dark mode. Built for a fintech client.</p>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo →</a>
+              <a href="#" class="project-link">GitHub →</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-thumb">🛒</div>
+          <div class="project-body">
+            <div class="project-tags"><span class="project-tag">Next.js</span><span class="project-tag">Stripe</span></div>
+            <h3>E-Commerce Platform</h3>
+            <p>A full-featured online store with product management, a custom checkout flow, and inventory tracking. Processed over $200K in its first year.</p>
+            <div class="project-links">
+              <a href="#" class="project-link">Case Study →</a>
+              <a href="#" class="project-link">GitHub →</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-thumb">🤖</div>
+          <div class="project-body">
+            <div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">OpenAI</span></div>
+            <h3>AI Writing Assistant</h3>
+            <p>A browser extension that helps users write clearer, more professional emails — with a "casual mode" for days when you just want to sound human.</p>
+            <div class="project-links">
+              <a href="#" class="project-link">Install →</a>
+              <a href="#" class="project-link">GitHub →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ─── Contact ───────────────────────────────────── -->
+    <section id="contact">
+      <p class="section-label">Get In Touch</p>
+      <h2 class="section-title">Let's work<br>together.</h2>
+      <div class="contact-wrap">
+        <div class="contact-info reveal">
+          <h3>I'd love to hear from you.</h3>
+          <p>Whether you have a project in mind, want to collaborate, or just want to say hey — my inbox is open. I usually respond within a day.</p>
+          <div class="contact-links">
+            <a href="mailto:janice123quinanola@gmail.com" class="contact-link">
+              <span class="contact-link-icon">📧</span>
+              <span>janice123quinanola@gmail.com</span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="contact-link">
+              <span class="contact-link-icon">💼</span>
+              <span>linkedin.com/in/janiceangelchua</span>
+            </a>
+            <a href="https://github.com" target="_blank" class="contact-link">
+              <span class="contact-link-icon">🐙</span>
+              <span>github.com/chuajanice</span>
+            </a>
+            <a href="#" class="contact-link">
+              <span class="contact-link-icon">📄</span>
+              <span>Download Resume</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form reveal">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="ex. Jane Smith" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="ex. jane@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell me about your project..."></textarea>
+          </div>
+          <button class="btn btn-primary" id="sendBtn" onclick="handleSend()">Send Message →</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ─── Footer ───────────────────────────────────────── -->
+  <footer>
+    <p class="footer-text">© 2026 Janice Angel Chua — Made with <span>♥</span> & too much coffee.</p>
+    <div class="social-links">
+      <a href="#" class="social-link" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="#" class="social-link" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="#" class="social-link" title="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    // ─── Theme Toggle ──────────────────────────────────────
+    const html = document.documentElement;
+    const saved = localStorage.getItem('theme') || 'light';
+    html.setAttribute('data-theme', saved);
+
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      const curr = html.getAttribute('data-theme');
+      const next = curr === 'light' ? 'dark' : 'light';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+
+    // ─── Hamburger ─────────────────────────────────────────
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
+      mobileMenu.classList.toggle('open');
+    });
+
+    function closeMenu() {
+      hamburger.classList.remove('open');
+      mobileMenu.classList.remove('open');
+    }
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
+        closeMenu();
+      }
+    });
+
+    // ─── Scroll Reveal ────────────────────────────────────
+    const revealEls = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          const delay = entry.target.closest('.exp-list, .projects-grid, .about-grid')
+            ? Array.from(entry.target.parentElement.children).indexOf(entry.target) * 80
+            : 0;
+          setTimeout(() => entry.target.classList.add('visible'), delay);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    revealEls.forEach(el => observer.observe(el));
+
+    // ─── Active Nav Link Highlight ─────────────────────────
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    const navObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(a => a.style.color = '');
+          const active = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
+          if (active) active.style.color = 'var(--accent)';
+        }
+      });
+    }, { rootMargin: '-40% 0px -50% 0px' });
+
+    sections.forEach(s => navObserver.observe(s));
+
+    // ─── Contact Form ──────────────────────────────────────
+    function handleSend() {
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const btn = document.getElementById('sendBtn');
+
+      if (!name || !email || !message) {
+        btn.textContent = 'Fill in all fields ✗';
+        btn.style.background = '#e05555';
+        setTimeout(() => { btn.textContent = 'Send Message →'; btn.style.background = ''; }, 2000);
+        return;
+      }
+
+      btn.textContent = 'Sending...';
+      btn.disabled = true;
+
+      setTimeout(() => {
+        btn.textContent = 'Message Sent! ✓';
+        btn.style.background = '#3a9e6e';
+        document.getElementById('name').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('message').value = '';
+        setTimeout(() => {
+          btn.textContent = 'Send Message →';
+          btn.style.background = '';
+          btn.disabled = false;
+        }, 3000);
+      }, 1200);
+    }
+
+    // ─── Bunny & Cookie Floaties ───────────────────────────
+    (function () {
+      const ITEMS = ['🐰', '🍪', '🐇', '🍪', '🐰', '🍪', '🐰', '🐇'];
+
+      function spawnFloaties(container, count, wrapperClass) {
+        const wrapper = document.createElement('div');
+        wrapper.className = wrapperClass;
+        container.appendChild(wrapper);
+
+        for (let i = 0; i < count; i++) {
+          const el = document.createElement('span');
+          el.className = 'floaty';
+          el.textContent = ITEMS[Math.floor(Math.random() * ITEMS.length)];
+
+          const size  = 1.1 + Math.random() * 1.4;
+          const left  = Math.random() * 94;
+          const delay = Math.random() * 14;
+          const dur   = 10 + Math.random() * 10;
+          const startY = 10 + Math.random() * 80;
+
+          el.style.cssText = `
+            font-size: ${size}rem;
+            left: ${left}%;
+            top: ${startY}%;
+            animation-duration: ${dur}s;
+            animation-delay: -${delay}s;
+          `;
+          wrapper.appendChild(el);
+        }
+      }
+
+      const hero   = document.getElementById('hero');
+      const nav    = document.querySelector('nav');
+      const footer = document.querySelector('footer');
+
+      if (hero)   spawnFloaties(hero,   18, 'floaties-canvas');
+      if (nav)    spawnFloaties(nav,     6, 'nav-floaties');
+      if (footer) spawnFloaties(footer,  8, 'footer-floaties');
+    })();
+  </script>
+</body>
+</html>
